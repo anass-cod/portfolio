@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>portfolio</title>
+</head>
+
+<body>
+    <div id="menu-nav" class="menu-nav">
+        <button onclick="CloseDiv()" class="close">
+            ❌
+        </button>
+        <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT ME</a></li>
+            <li><a href="#project">PROJET</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+    </div>
+    <header>
+        <div class="logo">
+            <h1>OUCHRIF</h1>
+        </div>
+        <button id="btn" class="btn">
+            <div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </button>
+        <nav>
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT ME</a></li>
+                <li><a href="#project">PROJET</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="boxrigth" id="home">
+        <div class="home">
+            <div class="text">
+                <h1>Hi , I'am <span>ANASS OUCHRIF</span></h1>
+                <h2>Frontend Developer</h2>
+                <p class="pa">I create modern responsive websites using <br> <span>HTML CSS</span>
+                    and <span>JavaScript</span></p>
+            </div>
+            <div class="img">
+                <img src="les images/anass.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="boxtop " id="about">
+        <h1>About me</h1>
+        <div class="about">
+            <p>
+                Hello, my name is Anass ouchrif, I am 13years old ,
+                <br>
+                I’m a front-end developer passionate about building modern, responsive, and user-friendly websites.
+                I enjoy working with HTML, CSS, and JavaScript to turn ideas into real interactive projects.
+                I’m constantly learning and improving my skills through practice and personal projects, with the goal of
+                becoming a professional web developer.
+            </p>
+        </div>
+    </section>
+    <section class="boxleft" id="projet">
+        <h1>my projet</h1>
+        <div class="projets">
+            <div>
+                <a href="https://anass-cod.github.io/e-commerce-js">
+                    <img id="imgecom" src="les images/desecom.PNG" alt="">
+                </a>
+                <h3>mini e-commerce</h3>
+            </div>
+            <div>
+                <a href="https://anass-cod.github.io/crud">
+                    <img id="imgcrud" src="les images/deskcrud.PNG" alt="">
+                </a>
+                <h3>CRUD</h3>
+            </div>
+        </div>
+    </section>
+    <section class="boxbottom" id="contact">
+        <h1>contact</h1>
+        <div class="contact">
+            <div class="user-data">
+                <form action="">
+                    <input required type="email" placeholder="email">
+                    <textarea placeholder="message" id=""></textarea>
+                    <input id="sub" type="submit">
+                </form>
+            </div>
+            <div class="my-data">
+                <p>wathsappe & Téléphone : 07.71.76.18.14</p>
+                <p>facebooke : <a href="https://www.facebook.com/Dev anass">https://www.facebook.com/Dev anass</a></p>
+                <p>instagrame : <a
+                        href="https://www.instagram.com/developer-anass">https://www.instagram.com/developer-anass</a>
+                </p>
+                <p>github : <a href="https://www.github.com/anass-code">https://www.github.com/anass-code</a></p>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
